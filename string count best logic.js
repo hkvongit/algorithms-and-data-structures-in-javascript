@@ -1,16 +1,15 @@
-
 dummy = "haLle all".split(" ");
 duppi = dummy.join("");
 ary = Array.from(duppi);
 
 ob = {};
-const func = (ary,ob) => {
-  for (ele in ary) {
-      key = ary[ele]
-    if (ob[key] === undefined) {
-      ob[key] = 1;
-    } else {
-      ob[key] += 1;
+
+const func = (ary, ob) => {
+  for (let ele in ary) {
+    dummy = ary[ele];
+    key = dummy.toLowerCase();
+    if (/[a-z0-9]/.test(key)) {
+      ob[key] ? (ob[key] += 1) : (ob[key] = 1);
     }
   }
 };
