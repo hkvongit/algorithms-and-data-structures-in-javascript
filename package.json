@@ -1,0 +1,22 @@
+{
+  "name": "algoithms-and-data-staructures-in-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "string count best logic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hkvongit/algorithms-and-data-structures-in-javascript.git"
+  },
+  "author": "hkv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hkvongit/algorithms-and-data-structures-in-javascript/issues"
+  },
+  "homepage": "https://github.com/hkvongit/algorithms-and-data-structures-in-javascript#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
