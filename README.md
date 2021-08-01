@@ -18,9 +18,8 @@ all works done  while learning algorithms and datastructures using javascript ,
 `npm test`
 
 ## Run only one test file
-`npm test ./<path-totest-file>`
+`npm test ./<path-to-test-file>`
 
 ## Run only specific describe
-`npm test ./<path-totest-file>` -- -t <describe-name> `
-
-  e.g. of describe-name #queueToArray
+`npm test ./<path-to-test-file> -- -t <describe-name> `
+- e.g. of describe-name #queueToArray
